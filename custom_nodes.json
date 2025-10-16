@@ -1,0 +1,505 @@
+{
+  "version": "1.0",
+  "updated": "2025-10-16",
+  "description": "Custom nodes configuration for ComfyUI Docker deployment",
+  "nodes": [
+    {
+      "name": "ComfyUI-Manager",
+      "repo": "https://github.com/ltdrdata/ComfyUI-Manager.git",
+      "branch": "main",
+      "priority": 1,
+      "description": "Essential - ComfyUI Manager for node management"
+    },
+    {
+      "name": "audio-separation-nodes-comfyui",
+      "repo": "https://github.com/christian-byrne/audio-separation-nodes-comfyui",
+      "branch": "main",
+      "priority": 2,
+      "description": "Audio separation and processing nodes"
+    },
+    {
+      "name": "Chaosaiart-Nodes",
+      "repo": "https://github.com/chaosaiart/Chaosaiart-Nodes",
+      "branch": "main",
+      "priority": 3,
+      "description": "Chaosaiart utility nodes"
+    },
+    {
+      "name": "CogVideoX-Fun",
+      "repo": "https://github.com/aigc-apps/CogVideoX-Fun",
+      "branch": "main",
+      "priority": 4,
+      "description": "CogVideoX video generation integration"
+    },
+    {
+      "name": "ComfyLiterals",
+      "repo": "https://github.com/M1kep/ComfyLiterals",
+      "branch": "main",
+      "priority": 5,
+      "description": "Literal value nodes"
+    },
+    {
+      "name": "ComfyMath",
+      "repo": "https://github.com/evanspearman/ComfyMath",
+      "branch": "main",
+      "priority": 6,
+      "description": "Mathematical operation nodes"
+    },
+    {
+      "name": "ComfyUI-Adaptive-Guidance",
+      "repo": "https://github.com/asagi4/ComfyUI-Adaptive-Guidance",
+      "branch": "main",
+      "priority": 7,
+      "description": "Adaptive guidance for generation"
+    },
+    {
+      "name": "ComfyUI-Advanced-ControlNet",
+      "repo": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
+      "branch": "main",
+      "priority": 8,
+      "description": "Advanced ControlNet functionality"
+    },
+    {
+      "name": "ComfyUI-AnimateDiff-Evolved",
+      "repo": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "branch": "main",
+      "priority": 9,
+      "description": "AnimateDiff animation generation"
+    },
+    {
+      "name": "comfyui-art-venture",
+      "repo": "https://github.com/sipherxyz/comfyui-art-venture",
+      "branch": "main",
+      "priority": 10,
+      "description": "Art venture utility nodes"
+    },
+    {
+      "name": "ComfyUI-Crystools",
+      "repo": "https://github.com/crystian/ComfyUI-Crystools",
+      "branch": "main",
+      "priority": 11,
+      "description": "Crystal tools and utilities"
+    },
+    {
+      "name": "ComfyUI-Custom-Scripts",
+      "repo": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts",
+      "branch": "main",
+      "priority": 12,
+      "description": "Custom UI scripts and enhancements"
+    },
+    {
+      "name": "ComfyUI-DepthAnythingV2",
+      "repo": "https://github.com/kijai/ComfyUI-DepthAnythingV2",
+      "branch": "main",
+      "priority": 13,
+      "description": "Depth estimation v2"
+    },
+    {
+      "name": "ComfyUI-Detail-Daemon",
+      "repo": "https://github.com/Jonseed/ComfyUI-Detail-Daemon",
+      "branch": "main",
+      "priority": 14,
+      "description": "Detail enhancement daemon"
+    },
+    {
+      "name": "ComfyUI-Easy-Use",
+      "repo": "https://github.com/yolain/ComfyUI-Easy-Use",
+      "branch": "main",
+      "priority": 15,
+      "description": "Easy to use workflow nodes"
+    },
+    {
+      "name": "ComfyUI-Florence2",
+      "repo": "https://github.com/kijai/ComfyUI-Florence2",
+      "branch": "main",
+      "priority": 16,
+      "description": "Florence2 vision model integration"
+    },
+    {
+      "name": "ComfyUI-Frame-Interpolation",
+      "repo": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+      "branch": "main",
+      "priority": 17,
+      "system_deps": ["ffmpeg", "libsm6", "libxext6"],
+      "description": "Frame interpolation for smooth video"
+    },
+    {
+      "name": "ComfyUI-FramePackWrapper",
+      "repo": "https://github.com/DrakenZA/ComfyUI-FramePackWrapper",
+      "branch": "main",
+      "priority": 18,
+      "description": "Frame packing utilities"
+    },
+    {
+      "name": "ComfyUI-GGUF",
+      "repo": "https://github.com/city96/ComfyUI-GGUF",
+      "branch": "main",
+      "priority": 19,
+      "description": "GGUF model format support"
+    },
+    {
+      "name": "ComfyUI-GIMM-VFI",
+      "repo": "https://github.com/kijai/ComfyUI-GIMM-VFI",
+      "branch": "main",
+      "priority": 20,
+      "description": "GIMM video frame interpolation"
+    },
+    {
+      "name": "ComfyUI-HunyuanVideoMultiLora",
+      "repo": "https://github.com/facok/ComfyUI-HunyuanVideoMultiLora",
+      "branch": "main",
+      "priority": 21,
+      "description": "Hunyuan video multi-LoRA support"
+    },
+    {
+      "name": "ComfyUI-HunyuanVideoWrapper",
+      "repo": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
+      "branch": "main",
+      "priority": 22,
+      "description": "Hunyuan video generation wrapper"
+    },
+    {
+      "name": "ComfyUI-hvBlockswap",
+      "repo": "https://github.com/fluffydiveX/ComfyUI-hvBlockswap",
+      "branch": "main",
+      "priority": 23,
+      "description": "HunyuanVideo block swapping"
+    },
+    {
+      "name": "ComfyUI-IF_DatasetMkr",
+      "repo": "https://github.com/if-ai/ComfyUI-IF_DatasetMkr",
+      "branch": "main",
+      "priority": 24,
+      "description": "Dataset creation tools"
+    },
+    {
+      "name": "ComfyUI-Image-Filters",
+      "repo": "https://github.com/spacepxl/ComfyUI-Image-Filters",
+      "branch": "main",
+      "priority": 25,
+      "description": "Image filtering and effects"
+    },
+    {
+      "name": "ComfyUI-Image-Saver",
+      "repo": "https://github.com/alexopus/ComfyUI-Image-Saver",
+      "branch": "main",
+      "priority": 26,
+      "description": "Advanced image saving options"
+    },
+    {
+      "name": "ComfyUI-Impact-Pack",
+      "repo": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+      "branch": "main",
+      "priority": 27,
+      "description": "Impact pack - detector and utilities"
+    },
+    {
+      "name": "ComfyUI-Impact-Subpack",
+      "repo": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack",
+      "branch": "main",
+      "priority": 28,
+      "description": "Impact subpack extensions"
+    },
+    {
+      "name": "ComfyUI-Inspire-Pack",
+      "repo": "https://github.com/ltdrdata/ComfyUI-Inspire-Pack",
+      "branch": "main",
+      "priority": 29,
+      "description": "Inspire pack utilities"
+    },
+    {
+      "name": "ComfyUI-KJNodes",
+      "repo": "https://github.com/kijai/ComfyUI-KJNodes",
+      "branch": "main",
+      "priority": 30,
+      "description": "Kijai's utility nodes collection"
+    },
+    {
+      "name": "ComfyUI-Lora-Manager",
+      "repo": "https://github.com/willmiao/ComfyUI-Lora-Manager",
+      "branch": "main",
+      "priority": 31,
+      "description": "LoRA management and organization"
+    },
+    {
+      "name": "ComfyUI-Marigold",
+      "repo": "https://github.com/kijai/ComfyUI-Marigold",
+      "branch": "main",
+      "priority": 32,
+      "description": "Marigold depth estimation"
+    },
+    {
+      "name": "ComfyUI-MelBandRoFormer",
+      "repo": "https://github.com/kijai/ComfyUI-MelBandRoFormer",
+      "branch": "main",
+      "priority": 33,
+      "description": "Audio separation with MelBandRoFormer"
+    },
+    {
+      "name": "ComfyUI-MultiGPU",
+      "repo": "https://github.com/pollockjj/ComfyUI-MultiGPU",
+      "branch": "main",
+      "priority": 34,
+      "description": "Multi-GPU support utilities"
+    },
+    {
+      "name": "ComfyUI-mxToolkit",
+      "repo": "https://github.com/Smirnov75/ComfyUI-mxToolkit",
+      "branch": "main",
+      "priority": 35,
+      "description": "MX toolkit utilities"
+    },
+    {
+      "name": "ComfyUI-NAG",
+      "repo": "https://github.com/ChenDarYen/ComfyUI-NAG",
+      "branch": "main",
+      "priority": 36,
+      "description": "NAG optimization utilities"
+    },
+    {
+      "name": "ComfyUI-QwenImageWanBridge",
+      "repo": "https://github.com/fblissjr/ComfyUI-QwenImageWanBridge.git",
+      "branch": "main",
+      "priority": 37,
+      "description": "Bridge between Qwen and Wan models"
+    },
+    {
+      "name": "ComfyUI-ReActor",
+      "repo": "https://github.com/Gourieff/ComfyUI-ReActor",
+      "branch": "main",
+      "priority": 38,
+      "description": "Face swap and reactor nodes"
+    },
+    {
+      "name": "ComfyUI-Rife-Tensorrt",
+      "repo": "https://github.com/yuvraj108c/ComfyUI-Rife-Tensorrt",
+      "branch": "main",
+      "priority": 39,
+      "description": "RIFE frame interpolation with TensorRT"
+    },
+    {
+      "name": "ComfyUI-RMBG",
+      "repo": "https://github.com/1038lab/ComfyUI-RMBG",
+      "branch": "main",
+      "priority": 40,
+      "description": "Background removal utilities"
+    },
+    {
+      "name": "ComfyUI-SeedVR2_VideoUpscaler",
+      "repo": "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "branch": "main",
+      "priority": 41,
+      "description": "SeedVR2 video upscaling"
+    },
+    {
+      "name": "ComfyUI-segment-anything-2",
+      "repo": "https://github.com/kijai/ComfyUI-segment-anything-2",
+      "branch": "main",
+      "priority": 42,
+      "description": "Segment Anything 2 integration"
+    },
+    {
+      "name": "ComfyUI-SuperBeasts",
+      "repo": "https://github.com/SuperBeastsAI/ComfyUI-SuperBeasts",
+      "branch": "main",
+      "priority": 43,
+      "description": "SuperBeasts utility nodes"
+    },
+    {
+      "name": "comfyui-various",
+      "repo": "https://github.com/jamesWalker55/comfyui-various",
+      "branch": "main",
+      "priority": 44,
+      "description": "Various utility nodes"
+    },
+    {
+      "name": "ComfyUI-VideoHelperSuite",
+      "repo": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+      "branch": "main",
+      "priority": 45,
+      "description": "Essential video processing utilities"
+    },
+    {
+      "name": "comfyui-vrgamedevgirl",
+      "repo": "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl",
+      "branch": "main",
+      "priority": 46,
+      "description": "VR game dev utilities"
+    },
+    {
+      "name": "comfyui-wan-control-nodes",
+      "repo": "https://github.com/wordbrew/comfyui-wan-control-nodes",
+      "branch": "main",
+      "priority": 47,
+      "description": "Your custom Wan control nodes"
+    },
+    {
+      "name": "ComfyUI-WanAnimatePreprocess",
+      "repo": "https://github.com/kijai/ComfyUI-WanAnimatePreprocess.git",
+      "branch": "main",
+      "priority": 48,
+      "description": "Wan animation preprocessing"
+    },
+    {
+      "name": "ComfyUI-WanMoeKSampler",
+      "repo": "https://github.com/stduhpf/ComfyUI-WanMoeKSampler",
+      "branch": "main",
+      "priority": 49,
+      "description": "Wan MoE K-Sampler"
+    },
+    {
+      "name": "ComfyUI-WanVideoWrapper",
+      "repo": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+      "branch": "main",
+      "priority": 50,
+      "description": "Wan video generation wrapper"
+    },
+    {
+      "name": "ComfyUI_Comfyroll_CustomNodes",
+      "repo": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes",
+      "branch": "main",
+      "priority": 51,
+      "description": "Comfyroll custom nodes collection"
+    },
+    {
+      "name": "comfyui_controlnet_aux",
+      "repo": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+      "branch": "main",
+      "priority": 52,
+      "description": "ControlNet auxiliary processors"
+    },
+    {
+      "name": "ComfyUI_essentials",
+      "repo": "https://github.com/cubiq/ComfyUI_essentials",
+      "branch": "main",
+      "priority": 53,
+      "description": "Essential utility nodes"
+    },
+    {
+      "name": "ComfyUI_Fill-ChatterBox",
+      "repo": "https://github.com/filliptm/ComfyUI_Fill-ChatterBox",
+      "branch": "main",
+      "priority": 54,
+      "description": "ChatterBox text utilities"
+    },
+    {
+      "name": "ComfyUI_FizzNodes",
+      "repo": "https://github.com/FizzleDorf/ComfyUI_FizzNodes",
+      "branch": "main",
+      "priority": 55,
+      "description": "Fizz nodes collection"
+    },
+    {
+      "name": "ComfyUI_IPAdapter_plus",
+      "repo": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+      "branch": "main",
+      "priority": 56,
+      "description": "IP-Adapter plus enhancements"
+    },
+    {
+      "name": "ComfyUI_LayerStyle",
+      "repo": "https://github.com/chflame163/ComfyUI_LayerStyle",
+      "branch": "main",
+      "priority": 57,
+      "description": "Layer styling utilities"
+    },
+    {
+      "name": "ComfyUI_Patches_ll",
+      "repo": "https://github.com/lldacing/ComfyUI_Patches_ll",
+      "branch": "main",
+      "priority": 58,
+      "description": "Patches and fixes"
+    },
+    {
+      "name": "comfyui_segment_anything",
+      "repo": "https://github.com/storyicon/comfyui_segment_anything",
+      "branch": "main",
+      "priority": 59,
+      "description": "Segment Anything integration"
+    },
+    {
+      "name": "ComfyUI_UltimateSDUpscale",
+      "repo": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale",
+      "branch": "main",
+      "priority": 60,
+      "description": "Ultimate SD upscale"
+    },
+    {
+      "name": "Derfuu_ComfyUI_ModdedNodes",
+      "repo": "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes",
+      "branch": "main",
+      "priority": 61,
+      "description": "Derfuu modded nodes"
+    },
+    {
+      "name": "EasyAnimate",
+      "repo": "https://github.com/aigc-apps/EasyAnimate",
+      "branch": "main",
+      "priority": 62,
+      "description": "Easy animation generation"
+    },
+    {
+      "name": "efficiency-nodes-comfyui",
+      "repo": "https://github.com/jags111/efficiency-nodes-comfyui",
+      "branch": "main",
+      "priority": 63,
+      "description": "Efficiency and optimization nodes"
+    },
+    {
+      "name": "facerestore_cf",
+      "repo": "https://github.com/mav-rik/facerestore_cf",
+      "branch": "main",
+      "priority": 64,
+      "description": "Face restoration utilities"
+    },
+    {
+      "name": "flowmatch_scheduler-comfyui",
+      "repo": "https://github.com/BigStationW/flowmatch_scheduler-comfyui",
+      "branch": "main",
+      "priority": 65,
+      "description": "Flow match scheduler"
+    },
+    {
+      "name": "RES4LYF",
+      "repo": "https://github.com/ClownsharkBatwing/RES4LYF",
+      "branch": "main",
+      "priority": 66,
+      "description": "Resolution utilities"
+    },
+    {
+      "name": "rgthree-comfy",
+      "repo": "https://github.com/rgthree/rgthree-comfy",
+      "branch": "main",
+      "priority": 67,
+      "description": "Rgthree utility nodes"
+    },
+    {
+      "name": "sd-perturbed-attention",
+      "repo": "https://github.com/pamparamm/sd-perturbed-attention",
+      "branch": "main",
+      "priority": 68,
+      "description": "Perturbed attention utilities"
+    },
+    {
+      "name": "sdxl_prompt_styler",
+      "repo": "https://github.com/twri/sdxl_prompt_styler",
+      "branch": "main",
+      "priority": 69,
+      "description": "SDXL prompt styling"
+    },
+    {
+      "name": "Skimmed_CFG",
+      "repo": "https://github.com/Extraltodeus/Skimmed_CFG",
+      "branch": "main",
+      "priority": 70,
+      "description": "Skimmed CFG optimization"
+    },
+    {
+      "name": "steerable-motion",
+      "repo": "https://github.com/banodoco/steerable-motion",
+      "branch": "main",
+      "priority": 71,
+      "description": "Steerable motion control"
+    }
+  ]
+}
